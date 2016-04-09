@@ -1,0 +1,16 @@
+{
+  "name": "salem21",
+  "homepage": "https://github.com/deja21k/salem21",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
