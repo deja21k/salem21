@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 
 // Scripts Task
 gulp.task('scripts', function () {
-  gulp.src('assets/**/*.js')
+  gulp.src('js/**/*.js')
     .pipe(plumber())
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'));
