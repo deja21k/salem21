@@ -16,7 +16,7 @@ gulp.task('scripts', function () {
 
 // Styles Task
 gulp.task('sass', function () {
-  return sass('sass/**/*.scss', {
+  return sass('sass/**/*.sass', {
     compass: true, sourcemap: true
   })
     .pipe(autoprefixer({
@@ -33,7 +33,7 @@ gulp.task('sass', function () {
 
 // Watches JS
 gulp.task('watch', function () {
-  gulp.watch('assets/**/*.js', ['scripts']);
+  gulp.watch('js/**/*.js', ['scripts']);
   gulp.watch('sass/**/*.scss', ['sass']);
 });
 
