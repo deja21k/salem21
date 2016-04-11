@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.3.3",
+    "browser-sync": "^2.12.1",
     "cssnext": "^1.8.4",
     "csswring": "^4.2.1",
     "gulp": "^3.9.1",
