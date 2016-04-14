@@ -17,7 +17,7 @@ gulp.task('scripts', function () {
 
 // Styles Task
 gulp.task('sass', function () {
-  return sass('sass/**/*.sass', {
+  return sass('sass/**/*.scss', {
     compass: true,
     sourcemap: true
   })
@@ -44,7 +44,7 @@ gulp.task('serve', ['sass'], function() {
 // Watches JS
 gulp.task('watch', function () {
   gulp.watch('js/**/*.js', ['scripts']);
-  gulp.watch('sass/**/*.sass', ['sass']);
+  gulp.watch('sass/**/*.scss', ['sass']);
   gulp.watch("/*.html").on('change', browserSync.reload);
 });
 
