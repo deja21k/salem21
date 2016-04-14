@@ -1,5 +1,7 @@
-$color--random: #312;
-
-.light-blue.lighten-1{
-  background-color: $color--random !important;
+p
+{
+  @include respond-to(tablet)
+  {
+    background: #ff0;
+  }
 }
