@@ -12,5 +12,10 @@
     "test",
     "tests"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "slick-carousel": "slick.js#^1.5.9",
+    "jquery": "^2.2.3",
+    "jquery-migrate-official": "^1.4.0"
+  }
 }
