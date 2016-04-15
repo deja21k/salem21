@@ -1,0 +1,31 @@
+.panel
+{
+  text-align: center;
+  &.panel__image
+  {
+    display: block;
+    margin: auto;
+  }
+}
+a
+{
+  &:hover,
+  &:visited
+  {
+    color: $color_punch;
+  }
+}
+
+{
+  &__border
+  {
+    &--left
+    {
+      border: 1px solid #0ff;
+    }
+    &--top
+    {
+      border: 1px solid #000;
+    }
+  }
+}
