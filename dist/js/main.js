@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".slick--first").slick({infinite:!0})});
+$(document).ready(function(){$(".slick--first").slick({infinite:!0,autoplay:!0,autoplaySpeed:3e3})});
