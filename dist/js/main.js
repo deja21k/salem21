@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".slick--first").slick({infinite:!0})});
