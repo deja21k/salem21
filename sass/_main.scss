@@ -74,7 +74,10 @@ header
 .who_we_are {
   .fa {
     font-size: 30px;
-    padding:10px;
-    border:1px solid #F5F5F5;
+    border:1px solid #F00;
+    min-width: 52px;
+    min-height: 52px;
+    line-height: 52px;
+    padding: 0;
   }
 }
