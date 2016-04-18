@@ -1,7 +1,80 @@
 p
 {
-  @include respond-to(tablet)
-  {
-    background: #ff0;
+    font: 300 12px / 20px 'Source Sans Pro';
+
+    color: #999;
+}
+h1
+{
+    font: 700 72px OpenSans;
+
+    color: #f4f5f9;
+}
+h3
+{
+    font: 400 24px 'Source Sans Pro';
+
+    color: #f4f5f9;
+}
+  .marginright {
+    margin-right: 38px;
+  }
+.btn
+{
+    line-height: 0;
+
+    display: inline-block;
+
+    height: 0;
+    padding: 30px 80px;
+
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    letter-spacing: 2px;
+
+    color: #fff;
+    border: 1px solid;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 5px;
+    background-color: transparent;
+    &:hover,
+    &:focus
+    {
+        text-decoration: none;
+
+        border-color: transparent;
+        outline: none;
+        background-color: #e74c3c;
+    }
+}
+
+header
+{
+    padding: 256px 0;
+
+    background: url('/images/headerbg.png') center no-repeat;
+    background-size: cover;
+
+    h1
+    {
+        margin: 0;
+        padding: 45px 0;
+    }
+    img
+    {
+        padding-bottom: 45px;
+    }
+    button {
+      margin-top:68px;
+    }
+}
+.who_we_are {
+  .fa {
+    font-size: 30px;
+    padding:10px;
+    border:1px solid #F5F5F5;
   }
 }

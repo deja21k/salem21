@@ -16,6 +16,7 @@
   "devDependencies": {
     "slick-carousel": "slick.js#^1.5.9",
     "jquery": "^2.2.3",
-    "jquery-migrate-official": "^1.4.0"
+    "jquery-migrate-official": "^1.4.0",
+    "font-awesome": "fontawesome#^4.6.1"
   }
 }
