@@ -16,15 +16,36 @@ h3
 
     color: #f4f5f9;
 }
+h4 {
+  font:700 36px 'Source Sans Pro';
+  color:#6a6a6a;
+  text-transform: uppercase;
+}
+h5 {
+  font:600 18px OpenSans;
+  color:#6a6a6a;
+  text-transform: uppercase;
+}
+
+hr {
+  max-width: 45px;
+}
+
   .marginright {
     margin-right: 38px;
+  }
+  .padding54 {
+    padding-top: 54px;
+  }
+  .padding20 {
+    padding-top: 20px;
   }
 .btn
 {
     line-height: 0;
 
     display: inline-block;
-
+    min-width: 325px;
     height: 0;
     padding: 30px 80px;
 
@@ -48,6 +69,8 @@ h3
         border-color: transparent;
         outline: none;
         background-color: #e74c3c;
+        border:none;
+        margin-top: 56px;;
     }
 }
 
@@ -72,6 +95,8 @@ header
     }
 }
 .who_we_are {
+  padding:97px 0 112px;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.25);
   .fa {
     font-size: 30px;
     border:1px solid #F00;
@@ -79,5 +104,29 @@ header
     min-height: 52px;
     line-height: 52px;
     padding: 0;
+  }
+  hr {
+    margin-top: 10px;
+  }
+}
+
+.about_us {
+  padding:146px 0;
+  img {
+    float:right;
+    margin-right: 77px;
+  }
+  h4 {
+    border-left: 5px solid #e74c3c;
+    padding-left: 25px;
+    margin:0px;
+  }
+  p {
+
+  }
+  .btn {
+    background-color:#e74c3c;
+    border:none;
+    margin-top: 55px;
   }
 }
