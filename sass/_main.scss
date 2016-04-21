@@ -26,6 +26,10 @@ h5 {
   color:#6a6a6a;
   text-transform: uppercase;
 }
+h6 {
+  color:#ED2834;
+  font:600 24px / 24px 'Source Sans Pro';
+}
 
 hr {
   max-width: 45px;
@@ -39,6 +43,9 @@ hr {
   }
   .padding20 {
     padding-top: 20px;
+  }
+  .marg67 {
+    margin-bottom: 67px;
   }
 .btn
 {
@@ -71,6 +78,7 @@ hr {
         background-color: #e74c3c;
         border:none;
         margin-top: 56px;;
+
     }
 }
 
@@ -129,4 +137,74 @@ header
     border:none;
     margin-top: 55px;
   }
+}
+
+// ***** Contact Section *****
+.contact {
+  background-color: #f4f5f9;
+  padding:150px 0;
+
+  p {
+    margin:0px;
+  }
+  h6 {
+    padding-top: 60px;
+  }
+  img {
+    padding-top:20px;
+  }
+  input,textarea {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.25);
+  }
+  .whbg {
+    background-color: #fff;
+    min-height: 468px;
+  }
+  .padding65 {
+    padding-left: 65px;
+  }
+  .padd1 {
+    padding:1px;
+  }
+  .btn {
+    background-color:#e74c3c;
+    border:none;
+    margin-top: 30px;
+  }
+}
+
+
+// ***** Promo Section *****
+.promo {
+  background: url('/images/promobg.jpg');
+  min-height: 450px;
+  padding-top: 116px;
+
+  h4 {
+    color:#fff;
+    text-transform: capitalize;
+  }
+  p {
+    color:#fff;
+    font-weight: lighter;
+  }
+  span {
+    font-weight:bolder;
+  }
+  .btn {
+    background-color:#e74c3c;
+    border:none;
+    margin-top: 55px;
+  }
+}
+
+// **** Footer ****
+
+footer {
+background-color: #202020;
+
+.fa {
+  color:#989898;
+  padding-left:20px;
+}
 }
